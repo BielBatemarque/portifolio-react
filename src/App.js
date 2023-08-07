@@ -6,7 +6,7 @@ function App() {
     <div className="App">
       <Menu />
       <Container>
-          OPA
+        opa
       </Container>
     </div>
   );
