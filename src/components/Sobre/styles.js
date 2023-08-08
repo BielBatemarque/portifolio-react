@@ -10,7 +10,7 @@ const rotateAnimation = keyframes`
 `;
 
 export const RotatingImage = styled.img`
-  animation: ${rotateAnimation} 10s linear infinite;
+  animation: ${rotateAnimation} 14s linear infinite;
 `;
 
 export const Section = styled.div`
