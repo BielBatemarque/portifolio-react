@@ -17,5 +17,6 @@ export const Section = styled.div`
     display: flex;
     margin-top: 2rem;
     justify-content: space-evenly;
+    height: 100vh;
 `;
 
