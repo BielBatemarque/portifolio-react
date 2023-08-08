@@ -1,14 +1,16 @@
-import { Section } from "./styles";
+import { RotatingImage, Section } from "./styles";
 import { Container } from '../Container/index';
-import { Title } from "../Title";
+import img from '../../assets/logo512.png';
 
 export const Sobre = () => {
     return(
         <Container>
-            <Title>Sobre o Projeto</Title>
             <Section>
-                <p>opa</p>
-                <p>opa</p>
+                <div style={{ width: 400, textAlign: 'center'}}>
+                    <h3>Sobre o Projeto</h3>
+                    <p style={{marginTop: 50, textAlign: 'center', fontSize: 36}}>Este Projeto contém a proposta de Armazenar e apresentar Pequenos Projetos com ferramentas e funcionalidades que compoem o Universo React. </p>
+                </div>
+                <div><RotatingImage src={img} alt="React-logo" /></div>
             </Section>
         </Container>
     );
