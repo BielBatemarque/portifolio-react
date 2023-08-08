@@ -1,10 +1,7 @@
 export const ScrollDown = () => {
     return(
-        <div style={{ marginTop: 90}}>
-            <a href="#about" style={{
-                color:'white',
-                textDecoration: 'none',
-            }}>
+<div style={{ display: 'flex', flexDirection: 'row', marginTop: 90, justifyContent: 'center'}}>
+            <a href="#about" style={{ color: 'white', textDecoration: 'none', display: 'flex', flexDirection: 'row  ', alignItems: 'center', }}>
             <svg
                 width="32px"
                 height="32px"
@@ -28,7 +25,7 @@ export const ScrollDown = () => {
                   d="M123.359,79.775l0,72.843"
                   style={{
                       fill: "none",
-                      stroke: "#fff",
+                      stroke: "#FFF",
                       strokeWidth: "20px",
                     }}
                 ></path>
@@ -37,12 +34,15 @@ export const ScrollDown = () => {
                   d="M236.717,123.359c0,-62.565 -50.794,-113.359 -113.358,-113.359c-62.565,0 -113.359,50.794 -113.359,113.359l0,143.237c0,62.565 50.794,113.359 113.359,113.359c62.564,0 113.358,-50.794 113.358,-113.359l0,-143.237Z"
                   style={{
                       fill: "none",
-                      stroke: "#fff",
+                      stroke: "#FFF",
                       strokeWidth: "20px",
                     }}
                 ></path>
               </svg>
-              <span className="home__scroll-name">Role Para Baixo</span>
+              <span className="home__scroll-name" style={{
+                fontSize: 24,
+                lineHeight: -10,
+              }}>Role Para Baixo</span>
               <i className="uil uil-arrow-down home__scroll-arrow"></i>
             </a>
         </div>

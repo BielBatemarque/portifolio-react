@@ -7,9 +7,16 @@ export const Sobre = () => {
     return(
         <Container>
             <Section>
-                <div style={{ width: 400, textAlign: 'center'}}>
+                <div style={{ 
+                    width: 400,
+                    textAlign: 'center',
+                    }}>
                     <h3>Sobre o Projeto</h3>
-                    <p style={{marginTop: 50, textAlign: 'center', fontSize: 36}}>Este Projeto contém a proposta de Armazenar e apresentar Pequenos Projetos com ferramentas e funcionalidades que compoem o Universo React. </p>
+                    <p style={{
+                        marginTop: 50,
+                        textAlign: 'center', 
+                        fontSize: 36
+                        }}>Este Projeto contém a proposta de Armazenar e apresentar Pequenos Projetos com ferramentas e funcionalidades que compoem o Universo React. </p>
                     <ScrollDown />
                 </div>
                 <div><RotatingImage src={img} alt="React-logo" /></div>
