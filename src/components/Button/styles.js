@@ -6,4 +6,6 @@ export const ColorButton = styled.button`
     border:none;
     cursor: pointer;
     background-color: ${props => props.color || 'blue'};
+    border-radius: 10px;
+    margin: 10px;
 `;
