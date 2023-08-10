@@ -1,3 +1,4 @@
+import { Button } from "../Button";
 import { Container } from "../Container";
 import { Title } from "../Title";
 import { FlexContainer } from "./styles";
@@ -7,9 +8,15 @@ export const RouterDom = () => {
         <Container>
             <Title>React-Router-Dom</Title>
             <FlexContainer>
-                <div></div>
                 <div>
-                    <h3></h3>
+                    <img src="" alt="img react routerDom" />
+                   <FlexContainer>
+                        <Button text={'opa'} color={'green'}/> 
+                        <Button />
+                   </FlexContainer>
+                </div>
+                <div>
+                    <h3>Sobre o Router-DOM</h3>
                 </div>
             </FlexContainer>
         </Container>
