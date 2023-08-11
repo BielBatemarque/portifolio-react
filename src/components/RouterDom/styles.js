@@ -5,3 +5,9 @@ export const FlexContainer = styled.div`
     background-color: red;
     justify-content: space-evenly;
 `;
+
+export const AcerterdIMG = styled.img`
+    width: 650px;
+    border-radius: 15px;
+
+`;
