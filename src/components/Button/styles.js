@@ -8,4 +8,5 @@ export const ColorButton = styled.button`
     background-color: ${props => props.color || 'blue'};
     border-radius: 10px;
     margin: 10px;
+    font-size: 1.2rem;
 `;
