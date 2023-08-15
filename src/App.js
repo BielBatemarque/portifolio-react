@@ -1,4 +1,5 @@
 import { Menu } from './components/Menu/index';
+import { NextJs } from './components/NextJs';
 import { Hooks } from './components/ReactHooks';
 import { Redux } from './components/Redux';
 import { RouterDom } from './components/RouterDom/indes';
@@ -14,6 +15,7 @@ function App() {
       <RouterDom />
       <Hooks />
       <Redux />
+      <NextJs />
     </div>
   );
 }
