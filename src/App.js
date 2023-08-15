@@ -1,3 +1,4 @@
+import { Footer } from './components/Footer';
 import { Menu } from './components/Menu/index';
 import { NextJs } from './components/NextJs';
 import { Hooks } from './components/ReactHooks';
@@ -16,6 +17,7 @@ function App() {
       <Hooks />
       <Redux />
       <NextJs />
+      <Footer />
     </div>
   );
 }
