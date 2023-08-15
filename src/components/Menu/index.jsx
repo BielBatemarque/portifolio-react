@@ -4,11 +4,11 @@ export const Menu = () => {
     return(
         <Header>
             <HeaderReduzido>
-                <StyledLink>Sobre</StyledLink>
-                <StyledLink>React-router-dom</StyledLink>
-                <StyledLink>React Hooks</StyledLink>
-                <StyledLink>Redux</StyledLink>
-                <StyledLink>Next.Js</StyledLink>
+                <StyledLink href="#sobre">Sobre</StyledLink>
+                <StyledLink href="#reactrouterdom">React-router-dom</StyledLink>
+                <StyledLink href="#hooks">React Hooks</StyledLink>
+                <StyledLink href="#redux">Redux</StyledLink>
+                <StyledLink href="#nextjs">Next.Js</StyledLink>
             </HeaderReduzido>
         </Header>
     );

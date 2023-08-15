@@ -6,7 +6,7 @@ import { Title } from "../Title";
 
 export const Redux = () => {
     return(
-        <div className="redux">
+        <div className="redux" id="redux">
              <Title>Redux</Title>
             <Container>
                 <Section>

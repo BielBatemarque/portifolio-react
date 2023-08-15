@@ -6,7 +6,7 @@ import { Title } from "../Title";
 
 export const NextJs = ()  => {
     return(
-        <div className="nextjs">
+        <div className="nextjs" id="nextjs">
             <Title>Next.Js</Title>
             <Container>
                 <Section>

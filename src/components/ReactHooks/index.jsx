@@ -7,7 +7,7 @@ import hooks from '../../assets/hooks.png';
 
 export const Hooks = () => {
     return(
-        <div className="hooks">
+        <div className="hooks" id="hooks">
             <Title>React Hooks</Title>
             <Container>
                 <Section>

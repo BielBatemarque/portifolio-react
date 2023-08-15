@@ -23,7 +23,7 @@ export const StyledLink = styled.a`
     color: #FFF;
     text-decoration: none;
     position: relative;
-
+    
     &:after {
         content: "";
         position: absolute;

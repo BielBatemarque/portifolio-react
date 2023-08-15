@@ -5,6 +5,7 @@ import { ScrollDown } from "./ScrollDown";
 
 export const Sobre = () => {
     return(
+        <div className="sobre" id="sobre">
         <Container>
             <Section>
                 <div style={{ 
@@ -21,6 +22,7 @@ export const Sobre = () => {
                 </div>
                 <div><RotatingImage src={img} alt="React-logo" /></div>
             </Section>
-        </Container>
+        </Container>              
+        </div>
     );
 }
