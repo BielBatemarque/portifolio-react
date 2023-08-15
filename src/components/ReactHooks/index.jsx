@@ -1,8 +1,9 @@
 import { Button } from "../Button";
 import { Container } from "../Container";
-import { FlexContainer } from "../RouterDom/styles";
+import { AcerterdIMG, FlexContainer } from "../RouterDom/styles";
 import { Section } from "../Sobre/styles";
 import { Title } from "../Title";
+import hooks from '../../assets/hooks.png';
 
 export const Hooks = () => {
     return(
@@ -11,13 +12,19 @@ export const Hooks = () => {
             <Container>
                 <Section>
                     <div>
-                    {/* <AcerterdIMG/> */}
+                    <AcerterdIMG src={hooks}/>
                         <FlexContainer >
-                            <Button color={'green'} text={'Repositório do Projeto'}/>
-                            <Button color={'blue'} text={'Ver Projeto'}/>
+                            <Button color={'red'} text={'Repositório do Projeto'}/>
+                            <Button color={'gray'} text={'Ver Projeto'}/>
                         </FlexContainer>
                     </div>
-                    <div></div>
+                    <div style={{
+                        marginLeft: 30,
+                        width: 600,
+                        textAlign: "center",
+                    }}>
+                        <p>React Hooks são uma adição à biblioteca React que permitem que você utilize o estado e outros recursos do React em componentes funcionais, em vez de componentes de classe. Eles permitem que você "enganche" funcionalidades de gerenciamento de estado, ciclo de vida e outros comportamentos do React em componentes sem a necessidade de criar classes.</p>
+                    </div>
                 </Section>
             </Container>
         </div>
