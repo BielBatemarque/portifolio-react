@@ -3,6 +3,7 @@ import { Container } from "../Container";
 import { AcerterdIMG, FlexContainer } from "../RouterDom/styles";
 import { Section } from "../Sobre/styles";
 import { Title } from "../Title";
+import redux from '../../assets/redux.png';
 
 export const Redux = () => {
     return(
@@ -11,7 +12,7 @@ export const Redux = () => {
             <Container>
                 <Section>
                     <div>
-                    <AcerterdIMG/>
+                    <AcerterdIMG src={redux}/>
                         <FlexContainer >
                             <Button color={'orange'} text={'Repositório do Projeto'}/>
                             <Button color={'purple'} text={'Ver Projeto'}/>
