@@ -14,6 +14,7 @@ export const RouterDom = () => {
                 <Section>
                     <div>
                         <AcerterdIMG src={routerDOm} />
+                        aqui devera conter uma imagem do projeto
                         <FlexContainer>
                             <Button color={'green'} text={'Repositório do Projeto'}/>
                             <Button color={'blue'} text={'Ver Projeto'}/>
