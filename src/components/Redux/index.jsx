@@ -22,7 +22,7 @@ export const Redux = () => {
                         width: 600,
                         textAlign: "center",
                     }}>
-                        <p>O Redux é uma biblioteca de gerenciamento de estado amplamente utilizada no desenvolvimento de aplicativos front-end, especialmente em contextos de interfaces de usuário complexas e interativas, como aplicações web e móveis. Ele se destaca por sua abordagem de fluxo unidirecional de dados e seu foco na previsibilidade do estado da aplicação..</p>
+                        <p>O Redux é uma biblioteca de gerenciamento de estado amplamente utilizada no desenvolvimento de aplicativos front-end, especialmente em contextos de interfaces de usuário complexas e interativas, como aplicações web e móveis. Ele se destaca por sua abordagem de fluxo unidirecional de dados e seu foco na previsibilidade do estado da aplicação.</p>
                     </div>
                 </Section>
             </Container>
