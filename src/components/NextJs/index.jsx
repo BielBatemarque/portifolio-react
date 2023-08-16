@@ -14,7 +14,7 @@ export const NextJs = ()  => {
                     <div>
                     <AcerterdIMG src={next}/>
                         <FlexContainer>
-                            <Button color={'purple'} text={'Repositório do Projeto'}/>
+                            <Button color={'purple'} text={'Repositório do Projeto'} link={'https://github.com/BielBatemarque/curd-next'}/>
                         </FlexContainer>
                     </div>
                     <div style={{

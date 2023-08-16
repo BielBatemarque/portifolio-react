@@ -14,7 +14,7 @@ export const Hooks = () => {
                     <div>
                     <AcerterdIMG src={hooks}/>
                         <FlexContainer >
-                            <Button color={'red'} text={'Repositório do Projeto'}/>
+                            <Button color={'red'} text={'Repositório do Projeto'} link={'https://github.com/BielBatemarque/react-hooks'}/>
                         </FlexContainer>
                     </div>
                     <div style={{

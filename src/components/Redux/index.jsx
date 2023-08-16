@@ -14,7 +14,7 @@ export const Redux = () => {
                     <div>
                     <AcerterdIMG src={redux}/>
                         <FlexContainer >
-                            <Button color={'orange'} text={'Repositório do Projeto'}/>
+                            <Button color={'orange'} text={'Repositório do Projeto'} link={'https://github.com/BielBatemarque/projeto-redux'}/>
                         </FlexContainer>
                     </div>
                     <div style={{

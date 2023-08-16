@@ -15,7 +15,7 @@ export const RouterDom = () => {
                     <div>
                         <AcerterdIMG src={routerDOm} />
                         <FlexContainer>
-                            <Button color={'green'} text={'Repositório do Projeto'}/>
+                            <Button color={'green'} text={'Repositório do Projeto'} link={'https://github.com/BielBatemarque/react-router'}/>
                         </FlexContainer>
                     </div>
                     <div style={{

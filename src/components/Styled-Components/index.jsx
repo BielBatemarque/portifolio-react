@@ -14,7 +14,7 @@ export const StyledComponents = () => {
                     <div>
                     <AcerterdIMG src={components}/>
                         <FlexContainer>
-                            <Button color={'orange'} text={'Repositório do Projeto'}/>
+                            <Button color={'gray'} text={'Repositório do Projeto'}/>
                         </FlexContainer>
                     </div>
                     <div style={{
