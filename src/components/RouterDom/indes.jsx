@@ -16,7 +16,6 @@ export const RouterDom = () => {
                         <AcerterdIMG src={routerDOm} />
                         <FlexContainer>
                             <Button color={'green'} text={'Repositório do Projeto'}/>
-                            <Button color={'blue'} text={'Ver Projeto'}/>
                         </FlexContainer>
                     </div>
                     <div style={{

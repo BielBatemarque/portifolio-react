@@ -15,7 +15,6 @@ export const Hooks = () => {
                     <AcerterdIMG src={hooks}/>
                         <FlexContainer >
                             <Button color={'red'} text={'Repositório do Projeto'}/>
-                            <Button color={'gray'} text={'Ver Projeto'}/>
                         </FlexContainer>
                     </div>
                     <div style={{
