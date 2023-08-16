@@ -3,6 +3,7 @@ import { Container } from "../Container";
 import { AcerterdIMG, FlexContainer } from "../RouterDom/styles";
 import { Section } from "../Sobre/styles";
 import { Title } from "../Title";
+import next from '../../assets/next.js.png';
 
 export const NextJs = ()  => {
     return(
@@ -11,7 +12,7 @@ export const NextJs = ()  => {
             <Container>
                 <Section>
                     <div>
-                    <AcerterdIMG/>
+                    <AcerterdIMG src={next}/>
                         <FlexContainer>
                             <Button color={'orange'} text={'Repositório do Projeto'}/>
                             <Button color={'purple'} text={'Ver Projeto'}/>
