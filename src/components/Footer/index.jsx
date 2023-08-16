@@ -3,7 +3,7 @@ import { FaInstagram  } from 'react-icons/fa';
 import { FaGithub } from 'react-icons/fa';
 import { FaLinkedin } from 'react-icons/fa';
 import { MdPerson } from 'react-icons/md';
-import { FaFutbol } from 'react-icons/fa';
+import { FaReact } from 'react-icons/fa';
 
 export const Footer = () => {
     return(
@@ -12,7 +12,7 @@ export const Footer = () => {
             
             <p>&copy; Todos os Diretitos reservados a Gabriel Batemarque</p>
             <div className="bola">
-                <FaFutbol className='bola'/>
+                <FaReact className='bola'/>
             </div>
             <div className='lista-redes-sociais'>
                 <ul>
